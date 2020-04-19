@@ -14,3 +14,6 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 # install git 
 sudo yum -y install https://centos7.iuscommunity.org/ius-release.rpm
 sudo yum -y install git2u yum-utils
+
+# install vim
+sudo yum -y install vim
