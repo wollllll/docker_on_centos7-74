@@ -68,4 +68,5 @@ Vagrant.configure("2") do |config|
   #   apt-get install -y apache2
   # SHELL 
   config.vm.provision :shell, path: "setup.sh"
+  config.vm.provision :shell, run: "always", path: "run-docker-compose.sh"
 end
